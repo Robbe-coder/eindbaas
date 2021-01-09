@@ -1,0 +1,469 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Syne', sans-serif;
+}
+.max{
+    max-width: 500px;
+}
+/*navigatie*/
+nav {
+    background-color: #8500ff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 80px;
+    width: 100vw;
+
+
+}
+
+.max {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #ff4f30;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
+.logo {
+    margin-left: 0.8rem;
+
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url("../images/logo.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+
+}
+
+.group1 {
+    display: none;
+}
+/*intro pagina met draak logo*/
+.banner {
+    background-color: #ff4f30;
+    width: 100vw;
+    height: 70vh;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.dragon {
+
+    display: inline-block;
+
+    width: 40%;
+    max-width: 300px;
+    vertical-align: middle;
+
+}
+
+.btn {
+    background-color: #f5f5f5;
+    display: inline-block;
+
+    padding: 1em 2em;
+    border-radius: 2em;
+    text-align: center;
+    color: #8500ff;
+    text-decoration: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ffc935;
+    box-shadow: 0px 15px 20px rgba(255, 201, 53, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 3.3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.title1 {
+    padding-left: 0.5em;
+    color: #8500ff;
+    flex: 100% 0 0;
+
+}
+/*game foto's*/
+.covers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f5f5f5;
+
+}
+
+.cover {
+
+    padding: 1em;
+}
+
+.covers img {
+    max-width: 100%;
+    border-radius: 1em;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.covers p {
+    text-align: center;
+    color: #8500ff;
+    font-size: 1.2em;
+}
+/*game play*/
+.gamePlay {
+    background-color: #8500ff;
+    color: #ff4f30;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:1em;
+}
+
+.title2 {
+
+    color: #ff4f30;
+
+
+
+}
+
+.gamePlay p {
+    padding: 1em;
+    margin-bottom: 0;
+}
+
+.gameVideo video {
+    width: 100%;
+    padding: 1em;
+    max-width: 688px;
+    border-radius: 2em;
+}
+
+.description {
+    margin-left: 1em;
+    font-size: 1.5em;
+}
+
+.container2 {
+    background-color: #ff4f30;
+    color: #8500ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.howTo {
+    background-color: #ff4f30;
+}
+
+
+
+.howTo p {
+    color: black;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.arrows {
+    margin-bottom: 2em;
+    max-width: 100%;
+}
+
+.spaceBar {
+    
+    max-width: 100%;
+}
+.spaceBar img{
+    width: 300px;
+    max-width: 100%;
+}
+/*reviews*/
+.reviews{
+    background-color: #f5f5f5;
+}
+.title5{
+    color:#8500ff;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    padding-bottom: 3em;
+   
+}
+.review{
+    text-align: center;
+    
+    border-radius: 20px;
+    height: 7em;
+    width: 20em;
+
+    margin: 1em;
+    background-color: #8500ff;
+    color: #f5f5f5;
+    /*box-shadow: rgba(105,0,208, 0.4) -5px 5px, rgba(105,0,208, 0.3) -10px 10px, rgba(105,0,208, 0.2) -15px 15px, rgba(105,0,208, 0.1) -20px 20px, rgba(105,0,208 , 0.05) -25px 25px;*/
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.review p{
+    font-size: 0.8em;
+    padding: 1em;
+}
+/*forms*/
+.title4 {
+    background-color: #ffc935;
+
+    color: #8500ff;
+}
+
+textarea {
+    border: 0;
+    width: 80%;
+    border-radius: 20px;
+    padding-left: 1em;
+    padding-top: 0.4em;
+    background-color: #f5f5f5a6;
+    resize: none;
+
+}
+
+::placeholder {
+    color: #8500ff;
+    opacity: 1;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+footer h4 {
+    margin-left: 2em;
+}
+
+footer p {
+    margin-left: 2em;
+}
+
+.container {
+    background-color: #ffc935;
+}
+
+.vallidate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.vallidate img {
+    margin-bottom: 1em;
+}
+
+.vallidate span {
+    margin-bottom: 1em;
+    font-weight: bold;
+    color: #8500ff;
+}
+
+/*class to hide things*/
+.hidden {
+    display: none;
+}
+
+/* adding the klass error when an imput field is wrong*/
+label {
+    font-size: 12px;
+    display: block;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+form {
+
+    color: #8500ff;
+
+}
+
+input {
+    width: 80%;
+    border-radius: 2em;
+    height: 3em;
+    border: 0;
+    background-color: #f5f5f5a6;
+    padding-left: 1em;
+    margin-bottom: 1em;
+
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form__group.error label {
+    color: #ef494c;
+    display: block;
+
+}
+
+.form__group span {
+    /* span element verbergen */
+    visibility: hidden;
+}
+
+.form__group.error span {
+    /* span ellement terug tonen wanneer de klasse error wordt toegevoegd*/
+    visibility: visible;
+}
+
+.form__group.error .input {
+    border: solid;
+    border-color: #ef494ca6;
+}
+
+.submit {
+    margin-top: 2em;
+    color: #f5f5f5;
+    background-color: #8500ff;
+    width: 10em;
+}
+
+.btn.submit:hover {
+    background-color: #ff4f30;
+    box-shadow: 0px 15px 20px rgba(255, 79, 48, 0.4);
+}
+.up{
+    margin-left: auto;
+    margin-right: 2em;
+    text-decoration: none;
+    color: #ff4f30;
+}
+
+@media(min-width:768px) {
+    .group1 {
+        display: block;
+        margin-left: auto;
+        margin-right: 1em;
+
+    }
+
+    .covers {
+        flex-direction: row;
+
+    }
+
+    .cover {
+        flex: 50% 0 0;
+    }
+
+    .container1 {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .description {
+        font-size: 1em;
+        order: 1;
+        flex: 50% 0 0;
+        max-width: 30em;
+        
+    }
+
+    .gameVideo {
+        min-width: 18em;
+        order: 2;
+        flex: 50% 0 0;
+    }
+    /*reviews*/
+    .container3{
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /*spacebarimage vergrote*/
+    .spaceBar img{
+        width: 400px;
+        
+    }
+
+}
+
+@media(min-width:992px) {
+    .cover {
+        flex: 33% 0 0;
+    }
+
+    .gameVideo video {
+        max-width: 700px;
+    }
+    .description {
+        font-size: 1.5em;
+        
+        
+    }
+
+    .container2 {
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+
+    .container {
+        height: 50em;
+        background-image: url("../images/wingRight.png"), url("../images/wingLeft.png");
+        background-repeat: no-repeat;
+        background-position: 102% 50%, -2% 50%;
+        background-size: 18em;
+        background-color: #ffc935;
+    }
+
+    input {
+        max-width: 50%;
+    }
+
+    textarea {
+        max-width: 50%;
+        height: 10em;
+
+    }
+
+}
